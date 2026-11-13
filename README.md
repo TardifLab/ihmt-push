@@ -8,19 +8,19 @@ MT-weighted data and PUSH pulses adapted for universal pulse design. This repo c
 ## Requirements:
 Derived from code: https://github.com/mriphysics/PUSH/
 
-INI folder
+## INI folder
 - contains RF waveforms,which have been scaled to saturation flip angle (FA) of 20 deg (Nominal FA)
 - The target saturation flip angle is the in file name, therefore the target RF waveform should be scaled by 191/20 deg
 
-DATA folder
+## DATA folder
 - contains pre-processed MT-weighted images for Subjects 1,2,3
 - Subject X:
-  - 2 kHz 
+  - ### 2 kHz 
       - ants_CP_Spos ( pre-processed single-sided CP saturation MTw image )
       - ants_UP_Spos ( pre-processed single-sided UP saturation MTw image )
       - ants_SS_Spos ( pre-processed single-sided SS saturation MTw image )
       - ants_Sref    ( pre-processed no saturation reference image )
-  - 7 kHz 
+  - ### 7 kHz 
       -   ants_CP_S_4d
       -   ants_UP_S_4d
       -   ants_SS_S_4d
@@ -30,9 +30,9 @@ DATA folder
           > Sneg_reg = S_4d[:,:,:,2]  ( pre-processed single-sided saturation MTw image (-7 kHz) )
           > Sdual_reg = S_4d[:,:,:,3] ( pre-processed dual-sided saturation MTw image (+/-7 kHz) )
    
-PUSH_UP folder
+## PUSH_UP folder
 - To be used with the original PUSH scripts found here: https://github.com/mriphysics/PUSH/
-- run_PUSH_UP_optimization:
+- ### run_PUSH_UP_optimization:
         - This script modifies PUSH_optimisation.m to take in multiple B1 field maps and the MTboost saturation scheme
         - Channel-wise B1 maps 
 
