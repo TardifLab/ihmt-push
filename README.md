@@ -10,7 +10,8 @@ Derived from code: https://github.com/mriphysics/PUSH/
 
 ## INI folder
 - contains RF waveforms,which have been scaled to saturation flip angle (FA) of 20 deg (Nominal FA)
-- The target saturation flip angle is the in file name, therefore the target RF waveform should be scaled by 191/20 deg
+- The target saturation flip angle is the in filename, therefore the RF waveform in the INI file can be scaled by targetFA/NominalFA, i.e. 191/20 to achieve target FA
+- Can scaled to even higher or lower FA depending on SAR constraints or if higher FA is desired! 
 
 ## DATA folder
 - contains pre-processed MT-weighted images for Subjects 1,2,3
