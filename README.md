@@ -6,7 +6,8 @@ MT-weighted data and PUSH pulses adapted for universal pulse design. This repo c
 2. ihMT PUSH publication once available
 
 ## Requirements:
-Derived from code: https://github.com/mriphysics/PUSH/
+ - Derived from code: https://github.com/mriphysics/PUSH/
+ - Requires proprietary Siemens code, which may be made available upon request, subject to an agreement with the vendor
 
 ## INI folder
 - contains RF waveforms,which have been scaled to saturation flip angle (FA) of 20 deg (Nominal FA)
@@ -33,6 +34,7 @@ Derived from code: https://github.com/mriphysics/PUSH/
    
 ## PUSH_UP folder
 - To be used with the original PUSH scripts found here: https://github.com/mriphysics/PUSH/
+- Requires proprietary Siemens code, which may be made available upon request, subject to an agreement with the vendor
 - ### run_PUSH_UP_optimization:
         - This script modifies PUSH_optimisation.m to take in multiple B1 field maps and the MTboost saturation scheme
         - Adj.S: Channel-wise B1 maps 
