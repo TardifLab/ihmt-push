@@ -26,7 +26,7 @@ MT-weighted data and PUSH pulses adapted for universal pulse design. This repo c
       -   ants_CP_S_4d
       -   ants_UP_S_4d
       -   ants_SS_S_4d
-      These 4D datasets are organized as the following:
+      #### These 4D datasets are organized as the following:
             - Sref_reg = S_4d[:,:,:,0]  ( pre-processed no saturation 3D reference image )
             - Spos_reg = S_4d[:,:,:,1]  ( pre-processed single-sided saturation MTw image (+7 kHz) )
             - Sneg_reg = S_4d[:,:,:,2]  ( pre-processed single-sided saturation MTw image (-7 kHz) )
